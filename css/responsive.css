@@ -1,0 +1,113 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {
+    width: 100%;
+  }
+
+#complet {
+  display: none!important;
+}
+
+h1 {
+  margin: 170px 0 0 10px;
+}
+
+.btn_1 {
+  margin: 10px 0 20px 10px;
+}
+
+#concept {
+  flex-direction: column;
+}
+
+#intro {
+  width: 95%;
+  margin: 10px;
+}
+
+.Avantages {
+  display: grid;
+}
+
+.box {
+  width: 90%;
+}
+
+.bg_1 {
+  height: 1820px;
+}
+
+.product-row {
+  display: grid;
+}
+
+.product-row .product {
+  margin-right: 0;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.bg_green {
+  height: 275px;
+}
+
+.Email {
+  margin: 0 10px;
+}
+
+.row {
+  justify-content: space-around;
+}
+
+.bg_green {
+  height: 275px;
+}
+
+.adapt_2 {
+  height: 775px
+}
+
+.avis {
+  display: grid;
+}
+
+footer {
+  height: 1100px;
+}
+
+.footer-top, .footer-right, .list-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-seo {
+  margin: 10px;
+  width: 95%!important;
+}
+
+.footer-left img {
+  margin: 10px;
+}
+
+input, textarea {
+  width: 90%
+}
+
+#up {
+  bottom: 20px;
+  right: 20px;
+}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+}
